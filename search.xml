@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>机械振动学复习</title>
+      <link href="/2021/12/27/ji-jie-zhen-dong-xue-fu-xi/"/>
+      <url>/2021/12/27/ji-jie-zhen-dong-xue-fu-xi/</url>
+      
+        <content type="html"><![CDATA[<hr><hr><h1 id="机械振动学复习"><a href="#机械振动学复习" class="headerlink" title="机械振动学复习"></a>机械振动学复习</h1><hr><p>机械振动学重点掌握的内容：</p><ol><li><p>根据简谐振动响应函数x=Asinwt，能计算其速度及加速度表达式及其数值；</p></li><li><p>能计算弹簧串联、并联及串并联的等效刚度；</p></li><li><p>熟练应用能量法计算单自由度振动系统的时间周期T；</p></li><li><p>能建立2或3自由度系统微分方程，并用矩阵方程表征，通过特征方程求解固有频率、振型向量及画出振型图；</p></li><li><p>能够为存在动力耦合及静力耦合的多自由度系统通过特征方程求解固有频率、振型向量、坐标变换进行解耦；</p></li><li><p>受到任意激振力的振动系统，能够熟练应用杜哈梅积分求解其响应</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 大三上复习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 大三上复习 </tag>
+            
+            <tag> 机械 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>算法与设计复习</title>
       <link href="/2021/12/26/suan-fa-yu-she-ji-fu-xi/"/>
       <url>/2021/12/26/suan-fa-yu-she-ji-fu-xi/</url>
