@@ -410,21 +410,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-12-26
+                    2021-12-29
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.3k
+                    1.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    7 分
                 </div>
                 
 
@@ -558,6 +558,62 @@
 <li><p>以深度优先方式系统搜索问题解的算法称为 (  D )  。<strong>回溯算法</strong></p>
 </li>
 <li><p>实现最长公共子序列利用的算法是（ B ）。<strong>动态规划法</strong></p>
+</li>
+</ol>
+<h3 id="文件一"><a href="#文件一" class="headerlink" title="文件一"></a>文件一</h3><ol>
+<li><p>应用Johnson法则的流水作业调度采用的算法是（D）<strong>动态规划算法</strong></p>
+</li>
+<li><p>Hanoi塔问题如下图所示。现要求将塔座A上的的所有圆盘移到塔座B上，并仍按同样顺序叠置。移动圆盘时遵守Hanoi塔问题的移动规则。由此设计出解Hanoi塔问题的递归算法正确的为：（B）</p>
+<p><code>void hanoi(int n, int A, int B, int C)</code></p>
+<p>  <code>&#123;</code></p>
+<p>​    <code>if (n &gt; 0)</code></p>
+<p>​    <code>&#123;</code></p>
+<p>​     <code>hanoi(n-1, A, C, B);</code></p>
+<p>​     <code>move(n,a,b);</code></p>
+<p>​     <code>hanoi(n-1, C, B, A);</code></p>
+<p>​    <code>&#125;</code></p>
+</li>
+<li><p>动态规划算法的基本要素为（C）<strong>最优子结构性质与重叠子问题性质</strong></p>
+</li>
+<li><p>算法分析中，记号O表示（渐进上界）， 记号<img src="file:///C:/Users/15155/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif" alt="img">表示（渐进下界）， 记号<img src="file:///C:/Users/15155/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif" alt="img">表示（D)。<strong>紧渐进界</strong></p>
+</li>
+<li><p>以下关于渐进记号的性质是正确的有：（A）**f(n)=紧渐进界（g(n)),g(n)=紧渐进界（h(n))推导出 f(n)=紧渐进界（h(n))</p>
+</li>
+<li><p>能采用贪心算法求最优解的问题，一般具有的重要性质为：（A）<strong>最优子结构性质与贪心选择性质</strong></p>
+</li>
+<li><p>回溯法在问题的解空间树中，按（D）策略，从根结点出发搜索解空间树。<strong>深度优先</strong></p>
+</li>
+<li><p>分支限界法在问题的解空间树中，按（A）策略，从根结点出发搜索解空间树。<strong>广度优先</strong></p>
+</li>
+<li><p>程序块（A）是回溯法中遍历排列树的算法框架程序。</p>
+<p><code>void **backtrack** (int t)</code></p>
+<p><code>&#123;</code></p>
+<p> <code>if (t&gt;n) output(x);</code></p>
+<p>  <code>else</code></p>
+<p>   <code>for (int i=t;i&lt;=n;i++) &#123;</code></p>
+<p>​    <code>swap(x[t], x[i]);</code></p>
+<p>​    <code>if (legal(t)) backtrack(t+1);</code></p>
+<p>​    <code>swap(x[t], x[i]);</code></p>
+<p>   <code>&#125;</code></p>
+<p><code>&#125;</code> </p>
+</li>
+<li><p>回溯法的效率不依赖于以下哪一个因素？（C ）</p>
+<p>A. 产生x[k]的时间；</p>
+<p>B. 满足显约束的x[k]值的个数；</p>
+<p><strong>C. 问题的解空间的形式；</strong> </p>
+<p>D. 计算上界函数bound的时间；</p>
+<p>E. 满足约束函数和上界函数约束的所有x[k]的个数。</p>
+<p>F. 计算约束函数constraint的时间；</p>
+</li>
+<li><p>常见的两种分支限界法为（D）<strong>队列式（FIFO)分支限界法与优先队列式分支限界法</strong></p>
+</li>
+<li><p>k带图灵机的空间复杂性S(n)是指（B）<strong>B.  k带图灵机处理所有长度为n的输入时，在k条带上所使用过的方格数的总和.</strong></p>
+</li>
+<li><p>NP类语言在图灵机下的定义为（D）<strong>D. NP={L|L是一个能在多项式时间内被一台NDTM所接受的语言}</strong></p>
+</li>
+<li><p>记号O的定义正确的是（A）。<strong>A.  O(g(n)) = { f(n) | 存在正常数c和n0使得对所有n<img src="file:///C:/Users/15155/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif" alt="img">n0有：0<img src="file:///C:/Users/15155/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif" alt="img"> f(n) <img src="file:///C:/Users/15155/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif" alt="img"> cg(n) }；</strong></p>
+</li>
+<li><p>记号<img src="file:///C:/Users/15155/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif" alt="img">的定义正确的是（B)。<strong>O(g(n)) = { f(n) | 存在正常数c和n0使得对所有n<img src="file:///C:/Users/15155/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif" alt="img">n0有：0<img src="file:///C:/Users/15155/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif" alt="img"> cg(n) <img src="file:///C:/Users/15155/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif" alt="img"> f(n) }；</strong></p>
 </li>
 </ol>
 
@@ -1036,7 +1092,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">6.5k</span>&nbsp;字
+                class="white-color">7.1k</span>&nbsp;字
             
             
             
